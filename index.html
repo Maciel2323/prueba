@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Taking App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Note Taking App</h1>
+</header>
+
+<div id="noteForm">
+    <h2>Add a Note</h2>
+    <form id="addNoteForm" style="display: flex; flex-direction: column; align-items: flex-start;">
+        <div style="width: 100%;">
+            <label for="noteContent" style="text-align: left;">Note Content:</label>
+            <textarea id="noteContent" required style="width: 100%;"></textarea>
+        </div>
+        
+        <label for="noteColor" style="text-align: left; display: block;">Select Color:</label>
+        <select id="noteColor" style="margin-bottom: 10px;">
+            <option value="green">Green</option>
+            <option value="yellow">Yellow</option>
+            <option value="red">Red</option>
+        </select>
+
+        <button type="button" onclick="addNote()" style="background-color: #4CAF50; color: white; align-self: flex-end; padding: 10px; margin-top: -10px;">SAVE</button>
+    </form>
+</div>
+
+<div id="notesContainer">
+    <h2>Your Notes</h2>
+    <div id="notesList"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
