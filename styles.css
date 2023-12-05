@@ -44,8 +44,7 @@ header {
 
 .note-buttons {
     display: flex;
-    justify-content: flex-end; /* Align buttons to the right */
-}
+    justify-content: flex-end; 
 
 .note-buttons button {
     margin-left: 5px;
