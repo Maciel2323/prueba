@@ -1,58 +1,64 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+    background-color: #f4f4f4; /* Color de fondo gris claro */
+    margin: 0;/* Elimina el margen exterior predeterminado */
+    padding: 0;/* Elimina el relleno predeterminado */
 }
-
+/* Estilo para el encabezado */
 header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
+    background-color: #333;  /* Color de fondo del encabezado */
+    color: #fff;/* Color del texto del encabezado */
+    text-align: center; /* Alineación central del texto en el encabezado */
+    padding: 1rem; /* Relleno de 1 rem en todas las direcciones */
 }
-
+/* Estilo para el formulario de notas */
 #noteForm {
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;/* Ancho máximo del formulario */
+    margin: 20px auto;/* Margen exterior de 20px arriba y abajo, y centrado horizontalmente */
+    padding: 20px; /* Relleno de 20px en todas las direcciones */
+    background-color: #fff; /* Color de fondo blanco */
+    border-radius: 5px;/* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);/* Sombra  */
 }
 
+/* Estilo para el contenedor de notas */
 #notesContainer {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;  /* Ancho máximo del contenedor de notas */
+    margin: 0 auto;  /* Centrado horizontalmente */
+    padding: 20px;  /* Relleno de 20px en todas las direcciones */
+    background-color: #fff;  /* Color de fondo blanco */
+    border-radius: 5px;  /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Sombra ligera */
 }
 
+/* Estilo para cada nota individual */
 .note {
-    position: relative;
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    position: relative;  /* Posición relativa para el posicionamiento de elementos secundarios */
+    margin-bottom: 10px;  /* Margen inferior de 10px entre notas */
+    padding: 10px;  /* Relleno de 10px en todas las direcciones */
+    border: 1px solid #ddd;  /* Borde delgado con color gris claro */
+    border-radius: 5px;  /* Bordes redondeados */
 }
 
+/* Estilo para el contenido de cada nota */
 .note-content {
-    text-align: center;
+    text-align: center;  /* Alineación central del contenido de la nota */
 }
 
+/* Estilo para los botones en cada nota */
 .note-buttons {
-    display: flex;
-    justify-content: flex-end; /* Align buttons to the right */
+    display: flex;  /* Contenedor de notas con diseño flexible (en fila) */
+    justify-content: flex-end;  /* Justifica los elementos al final del contenedor (derecha) */
 }
 
+/* Estilo para los botones en cada nota individual */
 .note-buttons button {
-    margin-left: 5px;
-    cursor: pointer;
+    margin-left: 5px;  /* Margen izquierdo de 5px entre botones */
+    cursor: pointer;  /* Cambia el cursor a una mano al pasar sobre los botones */
 }
 
+/* Estilo específico para el botón de edición en cada nota */
 .note button.edit {
-    background-color: #3498db;
-    color: #fff;
+    background-color: #3498db;  /* Color de fondo azul */
+    color: #fff;  /* Color del texto blanco */
 }
