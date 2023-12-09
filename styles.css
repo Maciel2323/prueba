@@ -1,24 +1,27 @@
+/* Estilo general para el cuerpo del documento */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4; /* Color de fondo gris claro */
-    margin: 0;/* Elimina el margen exterior predeterminado */
-    padding: 0;/* Elimina el relleno predeterminado */
+    font-family: Arial, sans-serif;  /* Fuente principal para el cuerpo del documento */
+    background-color: #f4f4f4;  /* Color de fondo gris claro */
+    margin: 0;  /* Elimina el margen exterior predeterminado */
+    padding: 0;  /* Elimina el relleno predeterminado */
 }
+
 /* Estilo para el encabezado */
 header {
     background-color: #333;  /* Color de fondo del encabezado */
-    color: #fff;/* Color del texto del encabezado */
-    text-align: center; /* Alineación central del texto en el encabezado */
-    padding: 1rem; /* Relleno de 1 rem en todas las direcciones */
+    color: #fff;  /* Color del texto del encabezado */
+    text-align: center;  /* Alineación central del texto en el encabezado */
+    padding: 1rem;  /* Relleno de 1 rem en todas las direcciones */
 }
+
 /* Estilo para el formulario de notas */
 #noteForm {
-    max-width: 600px;/* Ancho máximo del formulario */
-    margin: 20px auto;/* Margen exterior de 20px arriba y abajo, y centrado horizontalmente */
-    padding: 20px; /* Relleno de 20px en todas las direcciones */
-    background-color: #fff; /* Color de fondo blanco */
-    border-radius: 5px;/* Bordes redondeados */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);/* Sombra  */
+    max-width: 600px;  /* Ancho máximo del formulario */
+    margin: 20px auto;  /* Margen exterior de 20px arriba y abajo, y centrado horizontalmente */
+    padding: 20px;  /* Relleno de 20px en todas las direcciones */
+    background-color: #fff;  /* Color de fondo blanco */
+    border-radius: 5px;  /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Sombra ligera */
 }
 
 /* Estilo para el contenedor de notas */
